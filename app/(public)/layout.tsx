@@ -27,6 +27,11 @@ export const metadata: Metadata = {
     'Kiboya Comprehensive School — Nurturing Excellence, Building Tomorrow. A member of the Kieni Schools Digital Participation Program.',
   keywords: ['Kiboya', 'Comprehensive School', 'Kieni', 'Nyeri County', 'Secondary School Kenya'],
   metadataBase: new URL('https://kiboyacomprehensiveschool.co.ke'),
+  openGraph: {
+    siteName: 'Kiboya Comprehensive School',
+    locale:   'en_KE',
+    type:     'website',
+  },
 }
 
 export default async function PublicLayout({ children }: { children: React.ReactNode }) {
